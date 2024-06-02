@@ -1,6 +1,7 @@
 .shope-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    background-color: white;
 }
 .product-container{
     display: grid;
@@ -9,13 +10,13 @@
     margin: 50px;
 }
 .cart-container{
+    font-family: Lato;
     background-color:#d8bd93;
-    color:black;
-    width:264px;
-    height:944px;
-    text-align: center;
-}
-.order-summary-bar{
-    font-size: 20px;
-    font-family: 'Lato';
+    color: #0E161A;
+    width: 264px;
+    height: 944px;
+    text-align:center;
+    padding: 8px;
+    position: sticky;
+    top:0;
 }
